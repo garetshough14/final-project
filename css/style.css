@@ -3,10 +3,12 @@ ul{
     position: relative;
     bottom: 25px;
 }
+
 li a{
     color: black;
     text-decoration: none;
 }
+
 li{
     background-color: white;
     font-size: 30px;
@@ -16,21 +18,40 @@ li{
     border-left: solid #D5C7BC;
     border-width: 3px;
 }
+
 #no-right-border{
     border-right: none;
 }
-#additional-left-border{
+
+#no-right-border li:hover{
+    /* border-left: solid #D5C7BC */
+    
+    
+}
+
+li #additional-left-border{
     border-left: solid #D5C7BC;
+    border-width: 20px;
 }
-li:hover #no-right-border{
-    border-radius: 0px 30px 30px 0px;
+
+#no-right-border:hover{
+    border-radius: 0px 28px 28px 0px;
+    width: 148.732px;
+    
 }
+
+li #no-right-border:hover{
+    padding-right: 600px;
+}
+
 li:hover{
     background-color: #DEE8D5;
     background-size: 100%;
     /* border-radius: 0px 30px 30px 0px; */
 }
+
 nav{
+    /* background-color: red; */
     margin-right: auto;
     margin-left: auto;
     width: 1380px;
@@ -39,20 +60,29 @@ nav{
     border: solid #DEE8D5; /*idea to remove border completely*/
     border-width: 6px;
     border-radius: 30px;
-
 }
-.main-logo{
+
+.main-logo{ /* Trying to make border on right side of logo for double border*/
     position: relative;
     top: 16px;
     left: -35px;
     height: 60px;
     width: 60px;
+    border-right: 10px;
+    border-width: 10px;
 }
+
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
+
 .main-image{
+    background-repeat: no-repeat;
     width: 100%;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url("/images/belle-rae-background.jpg");
 }
