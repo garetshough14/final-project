@@ -11,9 +11,10 @@ li{
     background-color: white;
     font-size: 30px;
     display: inline-block;
-    padding: 21px 55px 15px 55px; 
+    padding: 25px 53px 16px 53px; /* Adjustments for hover background */
     border-right: solid #D5C7BC; /* Idea to make black */
     border-left: solid #D5C7BC;
+    border-width: 3px;
 }
 #no-right-border{
     border-right: none;
@@ -36,13 +37,14 @@ nav{
     height: 74px;
     background-color: white;
     border: solid #DEE8D5; /*idea to remove border completely*/
+    border-width: 6px;
     border-radius: 30px;
 
 }
 .main-logo{
     position: relative;
-    top: 15px;
-    left: -30px;
+    top: 16px;
+    left: -35px;
     height: 60px;
     width: 60px;
 }
@@ -50,4 +52,7 @@ div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
+.main-image{
+    width: 100%;
 }
