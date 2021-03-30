@@ -43,8 +43,14 @@ body {
 
 /* Style the counter cards */
 .card {
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 130px;
   text-align: center;
   background-color: #f1f1f1;
+}
+.poke{
+  width: 450px;
+  height: 450px;
+  top: 10px;
+  padding: 0px;
 }

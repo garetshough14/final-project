@@ -4,9 +4,7 @@ nav {
   position: sticky;
   top: 0;
 }
-ion-icon .logo-instagram :hover{
-  color: blue;
-}
+
 ion-icon{
   font-size: 30px;
   margin-left: 25px;
@@ -76,3 +74,8 @@ h2{
 .email{
   border: none;
 }
+
+ .social-media a:hover{
+  color: #0466c8;
+}
+
