@@ -1,0 +1,15 @@
+h1{
+    text-decoration: underline;
+}
+.item-name{
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+  text-decoration: underline;
+
+}
+.item-pics{
+    padding: 0;
+    border: 2px solid #0466c8;
+    width: 450px;
+    height: 450px;
+}
