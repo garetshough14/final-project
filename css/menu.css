@@ -12,7 +12,20 @@ h1{
     border: 2px solid #0466c8;
     width: 450px;
     height: 450px;
+    margin: 0 auto;
+    float: left;
 }
 p{
   display: inline-block;
+  color: black;
+  font-family: 'Gilda Display', serif;
+  font-size: 35px;
+  margin-left: 80px;
+  outline: 2px black;
+}
+.recipes{
+  float: left;
+}
+.clear-float{
+  clear: both;
 }
