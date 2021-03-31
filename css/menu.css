@@ -13,3 +13,6 @@ h1{
     width: 450px;
     height: 450px;
 }
+p{
+  display: inline-block;
+}
