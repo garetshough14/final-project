@@ -55,12 +55,12 @@ h1{
   font-size: 60px;
 }
 h2{
+  font-size: 30px;
   text-align: center;
   font-family: 'Gilda Display', serif;
   padding-left: 40px;
   padding-right: 40px;
   line-height: 1.5;
-  margin-bottom: 20px;
 }
 .foot{
   text-align: center;
